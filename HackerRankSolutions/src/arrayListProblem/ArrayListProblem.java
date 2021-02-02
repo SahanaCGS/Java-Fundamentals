@@ -49,6 +49,7 @@ public class ArrayListProblem {
 	public static void main(String[] args) {
 	       Scanner sc = new Scanner(System.in);
 	        int noOfLines = Integer.parseInt(sc.nextLine());
+	        //Added ArrayList inside another ArrayList 
 	        ArrayList<ArrayList> al = new ArrayList<ArrayList>();
 	        for(int i = 0;i<noOfLines;i++){
 	            int noOfIntegers = sc.nextInt();
@@ -59,6 +60,7 @@ public class ArrayListProblem {
 	            al.add(arrList);
 	            sc.nextLine();
 	        }
+	        
 	        int numQueries = Integer.parseInt(sc.nextLine());
 	        for(int i=0;i<numQueries;i++){
 	            int x = sc.nextInt()-1;

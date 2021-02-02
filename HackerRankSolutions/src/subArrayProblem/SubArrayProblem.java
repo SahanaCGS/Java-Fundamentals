@@ -58,8 +58,7 @@ public class SubArrayProblem {
         		}
         	}
         }
-        System.out.println(total);
-			
+        System.out.println(total);			
 	}
 
 }
